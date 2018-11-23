@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+	<style>p.indent{ padding: 4em }</style>
+	<meta charset="UTF-8">
+	<title>Decodificadores | Jose Antonio</title>
+	<link rel="shortcut icon" href="iconos/icono.ico">
+</head>
+<body bgcolor="#093F7F" leftmargin="50px" rightmargin="50px" bottommargin="50px">
+
+	<p class="letras"><center><FONT FACE="Arial Black" COLOR="#000000" size="15px"> <b>DECODIFICADORES</b></FONT></center></p>
+	<font color="#828484" face="Verdana"><b><h3 align="justify">Tienen como función detectar la presencia de una determinada combinación de bits en sus entradas y señalar la presencia de este código mediante un cierto nivel de salida. Un decodificador posee N líneas de entrada para gestionar N bits y en una de las 2^N líneas de salida indica la presencia de una o mas combinaciones de n bits.</h3></b></font>
+
+	<p class="indent"><img style="float:left; margin:5px;" alt="" src="img/cont/decod.jpg" width="32%" height="230"/>
+	<font color="#828484" face="Verdana"><b><h3 align="justify">DECODIFICADORES BINARIOS BÁSICOS: Cuando se quiere determinar cuando por ejemplo aparece 1001 en las entradas de un circuito digital. Todas las entradas de la puerta AND están a nivel ALTO ya que dicha puerta
+	produce una salida a nivel ALTO.</h3></b></font></p>
+
+	<p class="indent"><img style="float:right; margin:5px;" alt="" src="img/cont/decodi.gif" width="30%" height="270"/>
+	<font color="#828484" face="Verdana"><b><h3 align="justify"> Un decodificador también puede utilizarse para implementar
+	funciones lógicas en la forma SOP, basta colocar una compuerta OR que tome todas las salidas correspondientes
+	para las cuales la función tiene que valer 1. Ejemplo: F =X Y Z+ X Y Z+X Y Z+X Y Z+X Y Z. </h3></b></font></p>
+
+	<p class="indent"><img style="float:left; margin:5px;" alt="" src="img/cont/decodif.jpg" width="32%" height="230"/>
+	<font color="#828484" face="Verdana"><b><h3 align="justify">El decodificador de 4 bits ó decodificador 1 de 16.
+	Se utiliza para poder decodificar todas las combinaciones de 4 bits. Para cualquier código dado en las entradas solo se activa una
+	de las posibles dieciséis salidas. Si requerimos una salida a nivel bajo, el decodificador de puede implementar con puertas NAND e inversores, uno por cada salida. </h3></b></font></p>
+
+	<p class="indent"><img style="float:right; margin:5px;" alt="" src="img/cont/decodificador.gif" width="30%" height="270"/>
+	<font color="#828484" face="Verdana"><b><h3 align="justify"> El decodificador BCD a decimal. Convierte cada código BCD en uno de los diez posibles dígitos decimales. El método de implementación es el mismo que para un decodificador 4 a 16,pero con la diferencia de que las salidas son solo 10. Obtendremos salidas activas a nivel ALTO y BAJO implementando las funciones con puertas AND y NAND respectivamente. </h3></b></font></p>
+
+	<p class="indent"><center><video src="video/decod.mp4" poster="video/youtube.png" width="700" height="400" controls></video>       </center> </p>
+</body>
+</html>
